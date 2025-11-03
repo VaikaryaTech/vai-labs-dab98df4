@@ -8,8 +8,8 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src={logoNetwork} alt="VAI LABS" className="h-10 w-10" />
-              <span className="text-xl font-bold">VAI LABS</span>
+              <img src={logoNetwork} alt="Vaikarya AI LABS" className="h-10 w-10" />
+              <span className="text-xl font-bold">Vaikarya AI LABS</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Enterprise-grade Generative AI for secure, on-premises deployment
@@ -22,8 +22,7 @@ export const Footer = () => {
               <li><Link to="/product" className="text-sm text-muted-foreground hover:text-foreground transition-colors">KOGNIX</Link></li>
               <li><Link to="/product" className="text-sm text-muted-foreground hover:text-foreground transition-colors">GenAI Engine</Link></li>
               <li><Link to="/features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Features</Link></li>
-              <li><Link to="/business-applications" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Integrations</Link></li>
-              <li><Link to="/pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Pricing</Link></li>
+              <li><Link to="/business-applications" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Business Applications</Link></li>
             </ul>
           </div>
 
@@ -32,7 +31,6 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li><Link to="/documentation" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Documentation</Link></li>
               <li><Link to="/documentation" className="text-sm text-muted-foreground hover:text-foreground transition-colors">API Reference</Link></li>
-              <li><Link to="/case-studies" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Case Studies</Link></li>
               <li><Link to="/blog" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Blog</Link></li>
             </ul>
           </div>
@@ -50,7 +48,7 @@ export const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 VAI LABS. All rights reserved.
+            © 2025 Vaikarya Technologies. All rights reserved.
           </p>
         </div>
       </div>

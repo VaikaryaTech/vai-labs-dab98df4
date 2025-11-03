@@ -44,15 +44,16 @@ const Contact = () => {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Contact Information</h2>
+              <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
               
               <div className="space-y-6">
                 <Card className="p-6 border-border">
                   <div className="flex items-start gap-4">
                     <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+91 9148 555 031</p>
+                      <h3 className="font-semibold mb-2">Phone</h3>
+                      <p className="text-muted-foreground">91484 555 031</p>
+                      <p className="text-sm text-muted-foreground mt-1">Monday - Friday, 10:00 AM - 7:00 PM IST</p>
                     </div>
                   </div>
                 </Card>
@@ -61,9 +62,11 @@ const Contact = () => {
                   <div className="flex items-start gap-4">
                     <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Email</h3>
+                      <h3 className="font-semibold mb-2">Email</h3>
                       <p className="text-muted-foreground">sales@vailabs.in</p>
-                      <p className="text-muted-foreground">support@vailabs.in</p>
+                      <p className="text-sm text-muted-foreground">(Sales & Product Inquiries)</p>
+                      <p className="text-muted-foreground mt-2">support@vailabs.in</p>
+                      <p className="text-sm text-muted-foreground">(Technical Support)</p>
                     </div>
                   </div>
                 </Card>
@@ -72,10 +75,11 @@ const Contact = () => {
                   <div className="flex items-start gap-4">
                     <MapPin className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-1">Office</h3>
+                      <h3 className="font-semibold mb-2">Location</h3>
+                      <p className="text-muted-foreground font-semibold">VAI LABS</p>
                       <p className="text-muted-foreground">
-                        Bangalore, Karnataka<br />
-                        India
+                        Electronics City Ph2, Bengaluru<br />
+                        Karnataka, India - 560100
                       </p>
                     </div>
                   </div>
