@@ -68,7 +68,7 @@ const Home = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4">Secure by Design</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Fortress-grade security meets seamless innovation. Your data stays exactly where it belongs—within your four walls. No cloud vulnerabilities. No compliance headaches. Just pure, uncompromising control.
+                Your data exists in one place: yours. Build AI systems where every byte, every computation, every insight remains locked within your perimeter. What you create, stays created—on your terms, in your environment.
               </p>
             </div>
 
@@ -78,7 +78,7 @@ const Home = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4">Total Control, Zero Compromise</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Deploy world-class AI that lives and breathes within your walls. Experience enterprise-grade intelligence with absolute data sovereignty—no external dependencies, no compromises, just pure computational power under your command.
+                Run intelligence operations that answer to no one but you. Air-gapped AI that thinks locally, acts instantly, and never phones home. Your infrastructure becomes the engine—self-contained, unstoppable, entirely yours.
               </p>
             </div>
 
@@ -88,7 +88,7 @@ const Home = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4">Intelligent Orchestration</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Transform decision-making from days to seconds. Automate the complex, orchestrate the impossible, and watch as AI turns your most ambitious workflows into competitive advantages.
+                Watch chaos become choreography. Thread together processes that used to take weeks into sequences that complete before lunch. Turn knowledge workers into knowledge commanders, armed with AI that executes at thought-speed.
               </p>
             </div>
           </div>
