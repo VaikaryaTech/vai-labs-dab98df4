@@ -78,7 +78,7 @@ const Home = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4">On-Premises Power</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Unleash enterprise-scale AI without surrendering an inch of control. Deploy cutting-edge intelligence directly on your infrastructure—zero internet dependency, 100% data sovereignty, infinite possibilities.
+                Deploy world-class AI that lives and breathes within your walls. Experience enterprise-grade intelligence with absolute data sovereignty—no external dependencies, no compromises, just pure computational power under your command.
               </p>
             </div>
 
