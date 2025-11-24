@@ -92,7 +92,7 @@ const ProductPipeline = () => {
     },
     {
       title: "KOGNIX Workflow",
-      subtitle: "The Platform to Build and Deploy Intelligent AI Agent Workflows",
+      subtitle: "The Platform to Build and Deploy AI Agent Workflows",
       badge: "Workflow Automation",
       features: [
         {

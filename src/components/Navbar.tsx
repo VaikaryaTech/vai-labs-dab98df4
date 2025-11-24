@@ -12,7 +12,7 @@ export const Navbar = () => {
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "/product", label: "GenAI Engine" },
-    { to: "/workflow-automation", label: "Intelligent Workflows" },
+    { to: "/observability", label: "Observability" },
     { to: "/business-applications", label: "Business Applications" },
     { to: "/product-pipeline", label: "Product Pipeline" },
     { to: "/assessment", label: "AI Readiness" },
