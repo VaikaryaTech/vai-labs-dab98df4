@@ -215,27 +215,31 @@ const ProductPipeline = () => {
         <div className="container mx-auto">
           <div className="space-y-32">
             {products.map((product, idx) => (
-              <div key={idx} className="relative max-w-7xl mx-auto rounded-2xl overflow-hidden">
-                {/* Section Background */}
-                <div className="absolute inset-0">
-                  <img src={product.background} alt="" className="w-full h-full object-cover opacity-15" />
-                  <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background/70" />
-                </div>
-                
-                <div className="relative z-10 py-16 px-8">
-                  <div className="text-center mb-12">
-                    <Badge className="mb-4" variant="outline">
-                      {product.badge}
-                    </Badge>
-                    <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <div key={idx} className="max-w-7xl mx-auto">
+                {/* Product Header with Image - matching Business Applications style */}
+                <div className="relative h-64 rounded-2xl overflow-hidden mb-8 group">
+                  <img 
+                    src={product.background} 
+                    alt={`${product.title} visualization`}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/95 via-background/50 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-8">
+                    <div className="flex items-center gap-4">
+                      <Badge variant="outline" className="bg-background/80 backdrop-blur-sm">
+                        {product.badge}
+                      </Badge>
+                    </div>
+                    <h2 className="text-4xl md:text-5xl font-bold mt-3">
                       <span className="bg-gradient-kognix bg-clip-text text-transparent">{product.title}</span>
                     </h2>
-                    <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                    <p className="text-lg text-muted-foreground mt-2 max-w-3xl">
                       {product.subtitle}
                     </p>
                   </div>
+                </div>
 
-                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {product.features.map((feature, featureIdx) => (
                     <Card key={featureIdx} className="group hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 border-border/50 hover:border-primary/30">
                       <CardHeader>
@@ -265,7 +269,6 @@ const ProductPipeline = () => {
                       </CardContent>
                     </Card>
                   ))}
-                  </div>
                 </div>
               </div>
             ))}
