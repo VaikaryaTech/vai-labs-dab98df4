@@ -1,4 +1,5 @@
 import { Database, FileText, Workflow, Settings, MessageSquare, Network, LayoutDashboard } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import genaiCapabilities from "@/assets/genai-capabilities.jpg";
@@ -405,12 +406,12 @@ export default function Features() {
             <p className="text-xl text-muted-foreground mb-8">
               See how <span className="bg-gradient-kognix bg-clip-text text-transparent font-semibold">KOGNIX</span>'s comprehensive capabilities can transform your enterprise AI applications
             </p>
-            <a 
-              href="/book-demo"
+            <Link 
+              to="/book-demo"
               className="inline-block px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
             >
               Book a Demo
-            </a>
+            </Link>
           </div>
         </div>
       </section>
