@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.gif";
 import { ChevronDown, Menu, Moon, Sun } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useState } from "react";
@@ -23,9 +23,14 @@ export const Navbar = () => {
     { to: "/product-pipeline", label: "", suffix: "Product Pipeline" },
   ];
 
+  const enterpriseApplicationAreas = [
+    { to: "/business-applications", label: "All Industries" },
+    { to: "/business-applications/healthcare", label: "Healthcare & Pharmaceuticals" },
+    { to: "/business-applications/legal", label: "Legal & Compliance" },
+  ];
+
   const navLinks = [
     { to: "/", label: "Home" },
-    { to: "/business-applications", label: "Enterprise Application Areas" },
     { to: "/assessment", label: "AI Readiness" },
     { to: "/book-demo", label: "Book Demo" },
   ];
@@ -34,13 +39,17 @@ export const Navbar = () => {
     (p) => location.pathname === p.to
   );
 
+  const isEnterpriseAppActive = enterpriseApplicationAreas.some(
+    (p) => location.pathname === p.to || location.pathname.startsWith("/business-applications")
+  );
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="Vaikarya AI LABS" className="h-10 w-10" />
-            <span className="text-xl font-bold text-foreground">Vaikarya AI LABS</span>
+            <img src={logo} alt="VAIKARYA AI LABs" className="h-10 w-10" />
+            <span className="text-xl font-bold text-foreground">VAIKARYA AI LABs</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
@@ -83,6 +92,37 @@ export const Navbar = () => {
                         <span className="bg-gradient-kognix bg-clip-text text-transparent font-semibold">{product.label}</span>
                       )}{" "}
                       <span className="text-cyan-accent">{product.suffix}</span>
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  className={`text-sm transition-colors flex items-center gap-1 ${
+                    isEnterpriseAppActive
+                      ? "text-foreground font-semibold"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  Enterprise Application Areas
+                  <ChevronDown className="h-4 w-4" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start" className="bg-background border border-border z-50">
+                {enterpriseApplicationAreas.map((area) => (
+                  <DropdownMenuItem key={area.to} asChild>
+                    <Link
+                      to={area.to}
+                      className={`w-full cursor-pointer ${
+                        location.pathname === area.to
+                          ? "font-semibold"
+                          : ""
+                      }`}
+                    >
+                      {area.label}
                     </Link>
                   </DropdownMenuItem>
                 ))}
@@ -174,6 +214,29 @@ export const Navbar = () => {
                             <span className="bg-gradient-kognix bg-clip-text text-transparent font-semibold">{product.label}</span>
                           )}{" "}
                           <span className="text-cyan-accent">{product.suffix}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="px-4 py-2">
+                    <span className="text-sm font-semibold text-foreground">Enterprise Application Areas</span>
+                    <div className="flex flex-col gap-2 mt-2 pl-4">
+                      {enterpriseApplicationAreas.map((area) => (
+                        <Link
+                          key={area.to}
+                          to={area.to}
+                          onClick={() => {
+                            setOpen(false);
+                            window.scrollTo(0, 0);
+                          }}
+                          className={`text-base py-1 rounded-md transition-colors ${
+                            location.pathname === area.to
+                              ? "font-semibold text-foreground"
+                              : "text-muted-foreground hover:text-foreground"
+                          }`}
+                        >
+                          {area.label}
                         </Link>
                       ))}
                     </div>
