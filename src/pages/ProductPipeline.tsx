@@ -12,7 +12,7 @@ import bgDeveloper from "@/assets/bg-developer.jpg";
 const ProductPipeline = () => {
   const products = [
     {
-      title: "KOGNIX Intelligence",
+      title: "KOGNIX Intelligence, the AI GRID",
       subtitle: "Swap for Any LLM. One Unified API. Enterprise Ready.",
       background: bgIntelligence,
       badge: "AI Infrastructure",
@@ -141,8 +141,8 @@ const ProductPipeline = () => {
       ]
     },
     {
-      title: "KOGNIX AI Developer",
-      subtitle: "From Prototype to Production. The Complete Development and Operation Platform for LLM Agents",
+      title: "KOGNIX AI Studio",
+      subtitle: "From Prototype to Production. The Complete AI Development and Operation Platform for the Enterprise",
       background: bgDeveloper,
       badge: "LLMOps Platform",
       features: [
