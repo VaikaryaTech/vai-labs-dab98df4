@@ -12,8 +12,8 @@ import bgDeveloper from "@/assets/bg-developer.jpg";
 const ProductPipeline = () => {
   const products = [
     {
-      title: "KOGNIX Intelligence, the AI GRID",
-      subtitle: "One Unified API. Enterprise Ready.",
+      title: "KOGNIX Intelligence",
+      subtitle: "One Unified API. The Enterprise Ready AI Grid.",
       background: bgIntelligence,
       badge: "AI Infrastructure",
       features: [
