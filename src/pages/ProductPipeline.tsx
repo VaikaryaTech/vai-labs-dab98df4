@@ -13,7 +13,7 @@ const ProductPipeline = () => {
   const products = [
     {
       title: "KOGNIX Intelligence, the AI GRID",
-      subtitle: "Swap for Any LLM. One Unified API. Enterprise Ready.",
+      subtitle: "One Unified API. Enterprise Ready.",
       background: bgIntelligence,
       badge: "AI Infrastructure",
       features: [
