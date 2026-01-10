@@ -232,7 +232,7 @@ const KognixIntelligence = () => {
                     "LangChain - Native support for building LLM applications",
                     "LlamaIndex - Document indexing and retrieval integration",
                     "Chatbox - Direct UI client support",
-                    "Cude / ROCm / Metal -  Optimized for heterogeneous hardware NVIDIA AMD and Apple
+                    "Cude/ ROCm/ Metal -  Optimized for heterogeneous hardware NVIDIA, AMD and Apple",
                     "OpenAI SDK - Drop-in replacement compatibility",
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-3">
