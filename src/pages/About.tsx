@@ -55,7 +55,7 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-6">Our Story</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                VAI LABS was founded in 2023 with a vision to transform how businesses interact with their data and knowledge. 
+                VAI LABS was founded in October 2022 with a vision to transform how businesses interact with their data and knowledge. 
                 We recognized that while AI technology was advancing rapidly, most solutions were either too complex, 
                 too expensive, or didn't adequately address security and privacy concerns.
               </p>
