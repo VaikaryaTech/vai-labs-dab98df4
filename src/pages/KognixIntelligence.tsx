@@ -231,8 +231,8 @@ const KognixIntelligence = () => {
                   {[
                     "LangChain - Native support for building LLM applications",
                     "LlamaIndex - Document indexing and retrieval integration",
-                    "Dify - Visual workflow builder compatibility",
                     "Chatbox - Direct UI client support",
+                    "Cude / ROCm / Metal -  Optimized for heterogeneous hardware NVIDIA AMD and Apple
                     "OpenAI SDK - Drop-in replacement compatibility",
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-3">
@@ -246,7 +246,7 @@ const KognixIntelligence = () => {
               </div>
 
               <div className="grid grid-cols-2 gap-4">
-                {["LangChain", "LlamaIndex", "Dify", "OpenAI SDK"].map((name, index) => (
+                {["LangChain", "LlamaIndex", "Nvidia / AMD / Apple", "OpenAI SDK"].map((name, index) => (
                   <Card 
                     key={index}
                     className="p-6 bg-gradient-card border-border text-center hover:border-cyan-500/30 transition-colors"
