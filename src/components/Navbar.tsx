@@ -18,7 +18,7 @@ export const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
 
   const enterpriseProducts = [
-    { to: "/product", label: "KOGNIX", suffix: "GenAI Engine" },
+    { to: "/kaie", label: "KOGNIX", suffix: "GenAI Engine" },
     { to: "/observability", label: "KOGNIX", suffix: "Analytix" },
     { to: "/kognix-intelligence", label: "KOGNIX", suffix: "Intelligence" },
     { to: "/kognix-mobile", label: "KOGNIX", suffix: "Mobile" },
