@@ -1,9 +1,9 @@
-🚀 Vaikarya AI Labs (Vai Labs) | Website Repository
+🚀 Vaikarya AI Labs (VAI Labs) | Website Repository
 www.vailabs.in
 
 Secure. Local. Intelligent. Vaikarya AI Labs delivers enterprise-grade Generative AI built for your environment. We empower organizations to harness the power of AI without compromising on data security or privacy.
 
-💡 About Vai Labs
+💡 About VAI Labs
 Vai Labs is at the forefront of the Generative AI revolution. We specialize in building air-gapped, on-premises AI infrastructure that ensures your data never leaves your perimeter. Our mission is to transform complex workflows into intelligent orchestrations, turning knowledge workers into "knowledge commanders."
 
 🏗 The KOGNIX Ecosystem
