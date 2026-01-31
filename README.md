@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+🚀 Vaikarya AI Labs (Vai Labs) | Website Repository
+www.vailabs.in
 
-## Project info
+Secure. Local. Intelligent. Vaikarya AI Labs delivers enterprise-grade Generative AI built for your environment. We empower organizations to harness the power of AI without compromising on data security or privacy.
 
-**URL**: https://lovable.dev/projects/45e7cdcb-ec4a-4532-9e54-30a521cfc568
+💡 About Vai Labs
+Vai Labs is at the forefront of the Generative AI revolution. We specialize in building air-gapped, on-premises AI infrastructure that ensures your data never leaves your perimeter. Our mission is to transform complex workflows into intelligent orchestrations, turning knowledge workers into "knowledge commanders."
 
-## How can I edit this code?
+🏗 The KOGNIX Ecosystem
+Our flagship suite of products, KOGNIX, is designed to handle every facet of enterprise AI:
 
-There are several ways of editing your application.
+KOGNIX GenAI Engine: The core powerhouse for secure, local generative tasks.
 
-**Use Lovable**
+KOGNIX Analytix: Advanced data intelligence and predictive insights.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/45e7cdcb-ec4a-4532-9e54-30a521cfc568) and start prompting.
+KOGNIX Intelligence: Decision-making orchestration for complex enterprise logic.
 
-Changes made via Lovable will be committed automatically to this repo.
+KOGNIX AI Studio: A collaborative environment to build and deploy custom AI models.
 
-**Use your preferred IDE**
+KOGNIX Mobile: Enterprise intelligence on the go.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🛡 Why We’re Different
+Zero Internet Dependency: Our systems can run entirely air-gapped for maximum security.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+On-Premises Deployment: We bring the AI to your data, not your data to the AI.
 
-Follow these steps:
+Data Sovereignty: Total control over every byte, computation, and insight.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🌐 Application Areas
+We provide tailored solutions across high-stakes industries:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🏦 Finance & Banking (Secure transaction analysis & risk management)
 
-# Step 3: Install the necessary dependencies.
-npm i
+🏥 Healthcare & Pharma (Private clinical data processing)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+⚖️ Legal & Compliance (On-prem document auditing)
 
-**Edit a file directly in GitHub**
+🏭 Manufacturing & Engineering (Local process optimization)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🛠 Tech & Integration
+We believe in "Intelligent Orchestration"—turning weeks of manual processing into minutes of automated choreography. Our infrastructure is built to be:
 
-**Use GitHub Codespaces**
+Scalable: Grows with your enterprise needs.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Secure by Design: Built from the ground up to prevent cloud data leakage.
 
-## What technologies are used for this project?
+Compliant: Meeting the strictest regulatory standards for data privacy.
 
-This project is built with:
+📫 Connect With Us
+Interested in a demo or partnership?
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Website: vailabs.in
 
-## How can I deploy this project?
+Demo Requests: Book a Demo
 
-Simply open [Lovable](https://lovable.dev/projects/45e7cdcb-ec4a-4532-9e54-30a521cfc568) and click on Share -> Publish.
+Email: sales@vailabs.in
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2026 Vaikarya Technologies. All rights reserved.
